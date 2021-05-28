@@ -122,5 +122,5 @@ stages:
             displayName: 'Azure App Service Deploy: website'
             inputs:
               azureSubscription: 'Resource Manager - Tailspin - Space Game'
-              appName: '$(terraform output appservice_name_dev)'
+              appName: 'tailspin-space-game-web-dev-3450'
               package: '$(Pipeline.Workspace)/drop/$(buildConfiguration)/*.zip'
